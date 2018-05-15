@@ -6,6 +6,7 @@ var path = require('path');
 
 var host = 'www.txiaozhe.top';
 var name = '小强论坛';
+var desc = 'Cockroach 中国社区论坛';
 
 var config = {
   // debug 为 true 时，用于本地调试
@@ -14,7 +15,7 @@ var config = {
   get mini_assets() { return !this.debug; }, // 是否启用静态文件的合并压缩，详见视图中的Loader
 
   name: name, // 社区名字
-  description: 'Cockroach 中文社区论坛', // 社区的描述
+  description: desc, // 社区的描述
   keywords: 'CockroachDB DB NewSQL',
 
   // 添加到 html head 中的信息
@@ -60,7 +61,7 @@ var config = {
     title: name,
     link: host,
     language: 'zh-cn',
-    description: 'Cockroach 中文社区论坛',
+    description: desc,
     //最多获取的RSS Item数量
     max_rss_items: 50
   },
