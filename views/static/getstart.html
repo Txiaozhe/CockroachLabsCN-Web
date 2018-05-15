@@ -1,0 +1,49 @@
+<%- partial('../sidebar') %>
+
+<div id='content'>
+  <div class='panel'>
+    <div class='header'>
+      <ul class='breadcrumb'>
+        <li><a href='/'>主页</a><span class='divider'>/</span></li>
+        <li class='active'>CockroachDB 新手入门</li>
+      </ul>
+    </div>
+    <div class='inner topic'>
+      <div class="topic_content">
+        <%- markdown(multiline(function () {
+/*
+
+## CockroachDB 入门
+
+**Cockroach Labs 官网**
+
+https://www.cockroachlabs.com/
+
+**关于 CockroachDB**
+
+https://www.cockroachlabs.com/product/cockroachdb/
+
+**NewSQL**
+
+https://en.wikipedia.org/wiki/NewSQL
+
+**CockroachDB 文档(英文)**
+
+https://www.cockroachlabs.com/docs/stable/
+
+**CockroachDB 文档(中文)**
+
+https://github.com/cockroachdbcn/doc-in-Chinese
+
+**参与翻译项目**
+
+https://github.com/cockroachdbcn/doc-in-Chinese
+
+## CockroachDB 资源
+
+*/
+        })) %>
+      </div>
+    </div>
+  </div>
+</div>
