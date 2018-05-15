@@ -14,14 +14,14 @@ exports.faq = function (req, res, next) {
 
 exports.getstart = function (req, res) {
   res.render('static/getstart', {
-    pageTitle: 'Node.js 新手入门'
+    pageTitle: 'CockroachDB 新手入门'
   });
 };
 
 
 exports.robots = function (req, res, next) {
   res.type('text/plain');
-  res.send(multiline(function () {;
+  res.send(multiline(function () {
 /*
 # See http://www.robotstxt.org/robotstxt.html for documentation on how to use the robots.txt file
 #
