@@ -22,7 +22,7 @@ var config = {
   site_headers: [
     '<meta name="author" content="EDP@TAOBAO" />'
   ],
-  site_logo: 'https://' + host + '/public/images/cn-logo1.8.png', // default is `name`
+  site_logo: 'https://' + host + '/public/images/cn-logo2.png', // default is `name`
   site_icon: 'https://www.cockroachlabs.com/docs/images/favicon.png', // 默认没有 favicon, 这里填写网址
   // 右上角的导航区
   site_navs: [
